@@ -76,8 +76,8 @@ To run the tests, you need to have Newman installed. You can install Newman glob
 npm install -g newman
 newman run bookscollection.postman_collection.json -e BookCollectionEnvironment.postman_environment.json
 
-To generate a report after running the tests, use the following command:
-       **newman run bookscollection.postman_collection.json -e BookCollectionEnvironment.postman_environment.json -r cli,html**
+To generate a report after running the tests, use the following command
+newman run bookscollection.postman_collection.json -e BookCollectionEnvironment.postman_environment.json -r cli,html**
 
 
 
